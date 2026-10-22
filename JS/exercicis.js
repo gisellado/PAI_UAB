@@ -45,24 +45,26 @@
 // console.log(a);
 // Subtema 3. Assignació
 // 3.1.- Quines d'aquestes assignacions són correctes i quines no? Tracta cada assignació
-// com si fos independent.
-let a = 5;
-// let b = 5z;
-// let c = "c";
-// let c = "c';
-// let c = "c'c'c";
-// let c = "c'c"c';
-// let n = 35;
-// let n = 35va;
+// // com si fos independent.
+// let a = 5; -correcte
+// let b = 5z;-incorrecte
+// let c = "c";-correcte
+// let c = 'c';-correcte
+// let c = "c';-incorrecte
+// let c = "c'c'c";-correcte
+// let c = "c'c"c';-incorrecte
+// let n = 35;-correcte
+// let n = 35va;-incorrecte
 // 3.2.- Tenim un programa que té les assignacions que tenim a continuació. Hi ha, però, una
 // línia errònia. Quina és? Escriu en un paper quina creus que és i desprès executa el codi.
-// Fixa't en l'error que et dona el navegador.
+// Fixa't en l'error que et dona el navegador.- el error esta qeu la c no te el valor assignat , caldria un let c = 7;
+//  abans de fer la assignacio b = c;
 // let a = 5;
 // let b = c;
 // c = 7;
 // 3.3.- De quins tipus són les dades que assignem a aquestes variables?
-// let a = 55;
-// let b = 55.5;
-// let c = "Hola";
-// let d = 'Hola';
-// let e = true;
+// let a = 55;- numerica
+// let b = 55.5;- numerica
+// let c = "Hola";-string
+// let d = 'Hola';-string
+// let e = true;- booleana
