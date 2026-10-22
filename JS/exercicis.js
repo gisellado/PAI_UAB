@@ -43,3 +43,26 @@
 // let a = 1;
 // let a = 2;
 // console.log(a);
+// Subtema 3. Assignació
+// 3.1.- Quines d'aquestes assignacions són correctes i quines no? Tracta cada assignació
+// com si fos independent.
+let a = 5;
+// let b = 5z;
+// let c = "c";
+// let c = "c';
+// let c = "c'c'c";
+// let c = "c'c"c';
+// let n = 35;
+// let n = 35va;
+// 3.2.- Tenim un programa que té les assignacions que tenim a continuació. Hi ha, però, una
+// línia errònia. Quina és? Escriu en un paper quina creus que és i desprès executa el codi.
+// Fixa't en l'error que et dona el navegador.
+// let a = 5;
+// let b = c;
+// c = 7;
+// 3.3.- De quins tipus són les dades que assignem a aquestes variables?
+// let a = 55;
+// let b = 55.5;
+// let c = "Hola";
+// let d = 'Hola';
+// let e = true;
