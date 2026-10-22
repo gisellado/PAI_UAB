@@ -23,20 +23,23 @@
 // 8. nom_empleat
 // 9. nom0empleat
 // 10.Nom empleat
-
-// 2.1-a.
+// Declaració
+// 2.1.- Què passaria si féssim aquestes declaracions de variables?
+// Pensa primer que creus que passaria. Després pots provar a executar aquestes instruccions
+// i veure que passa (si passa alguna cosa).
+// 2.1-a.-a la consola surt un 2
 // var a = 1;
 // var a = 2;
 // console.log(a);
-// b.-
+// b.-surt syntax error perque no es pot declarar dues vegades la mateixa variable amb let
 // var a = 1;
 // let a = 2;
 // console.log(a);
-// c.-
+// c.-surt syntax error perque no es pot declarar dues vegades la mateixa variable amb let
 // let a = 1;
 // var a = 2;
 // console.log(a);
-// d.-
+// d.- surt syntax error perque no es pot declarar dues vegades la mateixa variable amb let
 // let a = 1;
 // let a = 2;
 // console.log(a);
