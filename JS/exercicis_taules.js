@@ -3,7 +3,7 @@
 // ● Afegeixi el valor “Hola” a la posició 0.
 // ● Afegeixi el valor “Adeu” a la posició 1.
 // ● Escrigui a la consola el contingut de la taula.
-let taula = [ 0,1 ];
-taula[0] = "Hola";
-taula[1] = "Adeu";
-console.log(taula);
+let arr = [ 0,1 ];
+arr[0] = "Hola";
+arr[1] = "Adeu";
+console.log(arr);
