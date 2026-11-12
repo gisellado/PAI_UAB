@@ -3,7 +3,7 @@
 // ● Afegeixi el valor “Hola” a la posició 0.
 // ● Afegeixi el valor “Adeu” a la posició 1.
 // ● Escrigui a la consola el contingut de la taula.
-// let taula = [ 0,1 ];
+// let taula = [];
 // taula[0] = "Hola";
 // taula[1] = "Adeu";
 // console.log(taula);
@@ -76,13 +76,39 @@ let taula = [23,45,63,78,23,68,3,78,32,53,93,21,53,5,62,78];
 // 21.9.- Fes un programa que crei una segona taula i emmagatzemi a ella tots els
 // valors de la taula, tot sumant-los 25 (així les tres primeres posicions de la nova taula
 // emmagatzemarien [48, 70, 88] Un cop fet haurà d’escriure la nova taula a la consola.
-
+// taula2= [];
+// for (let i = 0; i < taula.length; i++) {
+//     taula2[i] = taula[i] + 25;
+// }
+// console.log(taula2);
 // 21.10.- Fes un programa que calculi la mitjana dels valors emmagatzemats a la taula
 // i l’escrigui a la consola (la mitjana es calcula sumant tots els valors i dividint pel
 // nombre de valors).
+// let suma = 0;
+// let mitjana = 0
+// for (let i = 0; i < taula.length; i++) {
+//     suma += taula[i];
+//     mitjana = suma / taula.length
+// }
+// console.log(mitjana);
 // 21.11.- Fes un programa que calculi i escrigui a la consola els valors més gran i més
 // petit de la taula.
+// taula.sort((a, b) => a - b);
+// console.log(taula[0],taula[taula.length-1])
 // 21.12.- Fes un programa que crei una nova taula on s’emmagatzemin només els
-// valors parells de la taula i que escrigui el contingut d’aquesta nova taula a la consola.
+// valors parells de la taula i que escrigui el contingut d’aquesta nova taula a la consola. 
+// let taula2= []
+// for (let i = 0; i < taula.length; i++) {
+//     if (taula[i] % 2 === 0) {
+//         taula2.push(taula[i]);
+//     }
+// }
+// console.log(taula2);
 // 21.13.- Fes un programa que demani a l’usuari un valor (fent servir prompt()) i
 // escrigui a la consola quants cops apareix aquest valor a la taula. 
+let valor = parseint(prompt("Posa un valor"))
+for (let i = 0; i < taula.length; i++) 
+    if (taula[i] = valor) {
+    
+}
+console.log(i);
